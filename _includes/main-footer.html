@@ -5,173 +5,185 @@
 					<div class="3u">
 						<section>
 							<ul class="style1">
-								<li><div>
-								<table>
-										<tbody>
-											<tr>
-												<td width="21" background="images/12421152032.png" height="13"></td>
-												<td background="images/55452124552.png" height="13"></td>
-												<td width="21" background="images/45454787.png" height="13"></td>
-											</tr>
+								<li>
+									<div>
+										<table>
+											<tbody>
+												<tr>
+													<td width="21" background="images/12421152032.png" height="13"></td>
+													<td background="images/55452124552.png" height="13"></td>
+													<td width="21" background="images/45454787.png" height="13"></td>
+												</tr>
 
-											<tr>
-												<td width="21" background="images/21210212120.png"></td>
-												<td>
-													<div id="media">
-								<script type="text/javascript">
-		<!--//--><![CDATA[// ><!--
+												<tr>
+													<td width="21" background="images/21210212120.png"></td>
+													<td>
+														<div id="media">
+															<script type="text/javascript">
+																<!--//--><![CDATA[// ><!--
 
-		function init() {
-			var useInternalControls = true;
+																function init() {
+																	var useInternalControls = true;
     
-			var controls = new TorrentStream.Controls("tsplayer", {
-					style: useInternalControls ? "internal" : "ts-black",
-					debug: true
-			});
+																	var controls = new TorrentStream.Controls("tsplayer", {
+																		style: useInternalControls ? "internal" : "ts-black",
+																		debug: true
+																	});
     
-			try {
-					var player = new TorrentStream.Player(controls.getPluginContainer(), {
-					debug: true,
-					useInternalControls: useInternalControls,
-					bgColor: "#000000",
-					fontColor: "#ffffff",
-					onLoad: function() {
-						this.registerEventHandler(controls);
-						controls.attachPlayer(this);
-						try {
-							var p = this;
-							this.loadPlayer("3ab6e89831378bdddbfb77c3d518f23e54807bc4", {autoplay: false});
-						}
-						catch(e) {
-						console.log("init: " + e);
-						}
-					}
-			});
-		}
-		catch(e) {
-			controls.onSystemMessage(e);
-		}
-	} 
+																	try {
+																		var player = new TorrentStream.Player(controls.getPluginContainer(), {
+																			debug: true,
+																			useInternalControls: useInternalControls,
+																			bgColor: "#000000",
+																			fontColor: "#ffffff",
+																			onLoad: function() {
+																				this.registerEventHandler(controls);
+																				controls.attachPlayer(this);
+																				try {
+																					var p = this;
+																					this.loadPlayer("3ab6e89831378bdddbfb77c3d518f23e54807bc4", {autoplay: false});
+																				}
+																				catch(e) {
+																					console.log("init: " + e);
+																				}
+																			}
+																		});
+																	}
+																	catch(e) {
+																		controls.onSystemMessage(e);
+																	}
+																} 
 
-	//--><!]]>
-								</script>
-								<div id="aceplayer">
-									<object id="plugin" classid="clsid:79690976-ED6E-403c-BBBA-F8928B5EDE17">
-										<param name="width" value="800px" />
-										<param name="height" value="450px" />
-										<param name="fullscreencontrols" value="true" />
-										<param name="fscontrolsenable" value="true" />
-										<param name="fscontrols" value="default" />
-										<param name="nofscontrolsenable" value="true" />
-										<param name="nofscontrols" value="default" />
-										<param name="nofscontrolsheight" value="36" />
-										<param name="loopable" value="false" /> 
-										<param name="autoplay" value="false" />
-									</object>
+																//--><!]]>
+															</script>
+															<div id="aceplayer">
+																<object id="plugin" classid="clsid:79690976-ED6E-403c-BBBA-F8928B5EDE17">
+																	<param name="width" value="800px" />
+																	<param name="height" value="450px" />
+																	<param name="fullscreencontrols" value="true" />
+																	<param name="fscontrolsenable" value="true" />
+																	<param name="fscontrols" value="default" />
+																	<param name="nofscontrolsenable" value="true" />
+																	<param name="nofscontrols" value="default" />
+																	<param name="nofscontrolsheight" value="36" />
+																	<param name="loopable" value="false" /> 
+																	<param name="autoplay" value="false" />
+																</object>
 		
-								<script type="text/javascript">
-									var plugin = document.getElementById("plugin");
-									// load by the content id
-									plugin.playlistLoadAsyncPlayer("3ab6e89831378bdddbfb77c3d518f23e54807bc4");
-								</script></div></div>
-								</div>
-												</td>
-												<td width="21" background="images/203233451.png"></td>
-											</tr>
-											<tr>
-												<td width="21" background="images/23121542.png" height="17"></td>
-												<td background="images/12345456.png" height="17"></td>
-												<td width="21" background="images/2656564.png" height="25"></td>
-											</tr>
+																<script type="text/javascript">
+																	var plugin = document.getElementById("plugin");
+																	// load by the content id
+																	plugin.playlistLoadAsyncPlayer("3ab6e89831378bdddbfb77c3d518f23e54807bc4");
+																</script>
+															</div>
+														</div>
+														
+													<!-- End div id media -->
+								
+													</td>
+													<td width="21" background="images/203233451.png"></td>
+												</tr>
+												<tr>
+													<td width="21" background="images/23121542.png" height="17"></td>
+													<td background="images/12345456.png" height="17"></td>
+													<td width="21" background="images/2656564.png" height="25"></td>
+												</tr>
 
-										</tbody>
-									</table>
-									<p>Athletics World Championship London 2017 LIVE </p>
-									<p class="posted">Rusian sport channel: Match! HD</p>
+											</tbody>
+										</table>
+										<p>Athletics World Championship London 2017 LIVE </p>
+										<p class="posted">Rusian sport channel: Match! HD</p>
+									</div>
 								</li>
-								<li><div>
-								<table>
-										<tbody>
-											<tr>
-												<td width="21" background="images/12421152032.png" height="13"></td>
-												<td background="images/55452124552.png" height="13"></td>
-												<td width="21" background="images/45454787.png" height="13"></td>
-											</tr>
+								<li>
+									<div>
+										<table>
+											<tbody>
+												<tr>
+													<td width="21" background="images/12421152032.png" height="13"></td>
+													<td background="images/55452124552.png" height="13"></td>
+													<td width="21" background="images/45454787.png" height="13"></td>
+												</tr>
 
-											<tr>
-												<td width="21" background="images/21210212120.png"></td>
-												<td>
-													<div id="media">
-								<script type="text/javascript">
-		<!--//--><![CDATA[// ><!--
+												<tr>
+													<td width="21" background="images/21210212120.png"></td>
+													<td>
+														<div id="media">
+															<script type="text/javascript">
+																<!--//--><![CDATA[// ><!--
 
-		function init() {
-			var useInternalControls = true;
+																function init() {
+																	var useInternalControls = true;
     
-			var controls = new TorrentStream.Controls("tsplayer", {
-					style: useInternalControls ? "internal" : "ts-black",
-					debug: true
-			});
+																	var controls = new TorrentStream.Controls("tsplayer", {
+																		style: useInternalControls ? "internal" : "ts-black",
+																		debug: true
+																	});
     
-			try {
-					var player = new TorrentStream.Player(controls.getPluginContainer(), {
-					debug: true,
-					useInternalControls: useInternalControls,
-					bgColor: "#000000",
-					fontColor: "#ffffff",
-					onLoad: function() {
-						this.registerEventHandler(controls);
-						controls.attachPlayer(this);
-						try {
-							var p = this;
-							this.loadPlayer("c498ce1a56685cd750bab00408fd6d172ee5c5d6", {autoplay: false});
-						}
-						catch(e) {
-						console.log("init: " + e);
-						}
-					}
-			});
-		}
-		catch(e) {
-			controls.onSystemMessage(e);
-		}
-	} 
+																	try {
+																		var player = new TorrentStream.Player(controls.getPluginContainer(), {
+																			debug: true,
+																			useInternalControls: useInternalControls,
+																			bgColor: "#000000",
+																			fontColor: "#ffffff",
+																			onLoad: function() {
+																				this.registerEventHandler(controls);
+																				controls.attachPlayer(this);
+																				try {
+																					var p = this;
+																					this.loadPlayer("c498ce1a56685cd750bab00408fd6d172ee5c5d6", {autoplay: false});
+																				}
+																				catch(e) {
+																					console.log("init: " + e);
+																				}
+																			}
+																		});
+																	}
+																	catch(e) {
+																		controls.onSystemMessage(e);
+																	}
+																} 
 
-	//--><!&pro;]]>
-								</script>
-								<div id="aceplayer">
-									<object id="plugin" classid="clsid:79690976-ED6E-403c-BBBA-F8928B5EDE17">
-										<param name="width" value="800px" />
-										<param name="height" value="450px" />
-										<param name="fullscreencontrols" value="true" />
-										<param name="fscontrolsenable" value="true" />
-										<param name="fscontrols" value="default" />
-										<param name="nofscontrolsenable" value="true" />
-										<param name="nofscontrols" value="default" />
-										<param name="nofscontrolsheight" value="36" />
-										<param name="loopable" value="false" /> 
-										<param name="autoplay" value="false" />
-									</object>
+																//--><!&pro;]]>
+															</script>
+															<div id="aceplayer">
+																<object id="plugin" classid="clsid:79690976-ED6E-403c-BBBA-F8928B5EDE17">
+																	<param name="width" value="800px" />
+																	<param name="height" value="450px" />
+																	<param name="fullscreencontrols" value="true" />
+																	<param name="fscontrolsenable" value="true" />
+																	<param name="fscontrols" value="default" />
+																	<param name="nofscontrolsenable" value="true" />
+																	<param name="nofscontrols" value="default" />
+																	<param name="nofscontrolsheight" value="36" />
+																	<param name="loopable" value="false" /> 
+																	<param name="autoplay" value="false" />
+																</object>
 		
-								<script type="text/javascript">
-									var plugin = document.getElementById("plugin");
-									// load by the content id
-									plugin.playlistLoadAsyncPlayer("c498ce1a56685cd750bab00408fd6d172ee5c5d6");
-								</script></div>
-								</div>
-												</td>
-												<td width="21" background="images/203233451.png"></td>
-											</tr>
-											<tr>
-												<td width="21" background="images/23121542.png" height="17"></td>
-												<td background="images/12345456.png" height="17"></td>
-												<td width="21" background="images/2656564.png" height="25"></td>
-											</tr>
+																<script type="text/javascript">
+																	var plugin = document.getElementById("plugin");
+																	// load by the content id
+																	plugin.playlistLoadAsyncPlayer("c498ce1a56685cd750bab00408fd6d172ee5c5d6");
+																</script>
+															</div>
+														</div>
+														
+													<!-- End div id media -->
+								
+													</td>
+													<td width="21" background="images/203233451.png"></td>
+												</tr>
+												<tr>
+													<td width="21" background="images/23121542.png" height="17"></td>
+													<td background="images/12345456.png" height="17"></td>
+													<td width="21" background="images/2656564.png" height="25"></td>
+												</tr>
 
-										</tbody>
-									</table>
-									<p>Volleyball, tenis </p>
-									<p class="posted">Rusian sport channel: Match! Igra HD</p></div>
+											</tbody>
+										</table>
+										<p>Volleyball, tenis </p>
+										<p class="posted">Rusian sport channel: Match! Igra HD</p></div>
+									</div>
 								</li>
 								
 								<!--<li><img src="images/pics07.jpg" width="78" height="78" alt="">
@@ -181,176 +193,193 @@
 							</ul>
 						</section>
 					</div>
+					
+				<!-- End div class 3u -->
+					
+				<!-- Start div class 3u -->
+					
 					<div class="3u">
 						<section>
 							<ul class="style1">
-								<li><div>
-								<table>
-										<tbody>
-											<tr>
-												<td width="21" background="images/12421152032.png" height="13"></td>
-												<td background="images/55452124552.png" height="13"></td>
-												<td width="21" background="images/45454787.png" height="13"></td>
-											</tr>
+								<li>
+									<div>
+										<table>
+											<tbody>
+												<tr>
+													<td width="21" background="images/12421152032.png" height="13"></td>
+													<td background="images/55452124552.png" height="13"></td>
+													<td width="21" background="images/45454787.png" height="13"></td>
+												</tr>
 
-											<tr>
-												<td width="21" background="images/21210212120.png"></td>
-												<td>
-													<div id="media">
-								<script type="text/javascript">
-		<!--//--><![CDATA[// ><!--
+												<tr>
+													<td width="21" background="images/21210212120.png"></td>
+													<td>
+														<div id="media">
+															<script type="text/javascript">
+																<!--//--><![CDATA[// ><!--
 
-		function init() {
-			var useInternalControls = true;
+																function init() {
+																	var useInternalControls = true;
     
-			var controls = new TorrentStream.Controls("tsplayer", {
-					style: useInternalControls ? "internal" : "ts-black",
-					debug: true
-			});
+																	var controls = new TorrentStream.Controls("tsplayer", {
+																		style: useInternalControls ? "internal" : "ts-black",
+																		debug: true
+																	});
     
-			try {
-					var player = new TorrentStream.Player(controls.getPluginContainer(), {
-					debug: true,
-					useInternalControls: useInternalControls,
-					bgColor: "#000000",
-					fontColor: "#ffffff",
-					onLoad: function() {
-						this.registerEventHandler(controls);
-						controls.attachPlayer(this);
-						try {
-							var p = this;
-							this.loadPlayer("f0c83f509d76ecacb7995d6c02bb1c55df4835a0", {autoplay: false});
-						}
-						catch(e) {
-						console.log("init: " + e);
-						}
-					}
-			});
-		}
-		catch(e) {
-			controls.onSystemMessage(e);
-		}
-	} 
+																	try {
+																		var player = new TorrentStream.Player(controls.getPluginContainer(), {
+																			debug: true,
+																			useInternalControls: useInternalControls,
+																			bgColor: "#000000",
+																			fontColor: "#ffffff",
+																			onLoad: function() {
+																				this.registerEventHandler(controls);
+																				controls.attachPlayer(this);
+																				try {
+																					var p = this;
+																					this.loadPlayer("f0c83f509d76ecacb7995d6c02bb1c55df4835a0", {autoplay: false});
+																				}
+																				catch(e) {
+																					console.log("init: " + e);
+																				}
+																			}
+																		});
+																	}
+																	catch(e) {
+																		controls.onSystemMessage(e);
+																	}
+																} 
 
-	//--><!&pro;]]>
-								</script>
-								<div id="aceplayer">
-									<object id="plugin" classid="clsid:79690976-ED6E-403c-BBBA-F8928B5EDE17">
-										<param name="width" value="800px" />
-										<param name="height" value="450px" />
-										<param name="fullscreencontrols" value="true" />
-										<param name="fscontrolsenable" value="true" />
-										<param name="fscontrols" value="default" />
-										<param name="nofscontrolsenable" value="true" />
-										<param name="nofscontrols" value="default" />
-										<param name="nofscontrolsheight" value="36" />
-										<param name="loopable" value="false" /> 
-										<param name="autoplay" value="false" />
-									</object>
+																//--><!&pro;]]>
+															</script>
+															<div id="aceplayer">
+																<object id="plugin" classid="clsid:79690976-ED6E-403c-BBBA-F8928B5EDE17">
+																	<param name="width" value="800px" />
+																	<param name="height" value="450px" />
+																	<param name="fullscreencontrols" value="true" />
+																	<param name="fscontrolsenable" value="true" />
+																	<param name="fscontrols" value="default" />
+																	<param name="nofscontrolsenable" value="true" />
+																	<param name="nofscontrols" value="default" />
+																	<param name="nofscontrolsheight" value="36" />
+																	<param name="loopable" value="false" /> 
+																	<param name="autoplay" value="false" />
+																</object>
 		
-								<script type="text/javascript">
-									var plugin = document.getElementById("plugin");
-									// load by the content id
-									plugin.playlistLoadAsyncPlayer("f0c83f509d76ecacb7995d6c02bb1c55df4835a0");
-								</script></div>
-								</div>
-												</td>
-												<td width="21" background="images/203233451.png"></td>
-											</tr>
-											<tr>
-												<td width="21" background="images/23121542.png" height="17"></td>
-												<td background="images/12345456.png" height="17"></td>
-												<td width="21" background="images/2656564.png" height="25"></td>
-											</tr>
+																<script type="text/javascript">
+																	var plugin = document.getElementById("plugin");
+																	// load by the content id
+																	plugin.playlistLoadAsyncPlayer("f0c83f509d76ecacb7995d6c02bb1c55df4835a0");
+																</script>
+															</div>
+														</div>
+														
+													<!-- End div id media -->
+								
+													</td>
+													<td width="21" background="images/203233451.png"></td>
+												</tr>
+												<tr>
+													<td width="21" background="images/23121542.png" height="17"></td>
+													<td background="images/12345456.png" height="17"></td>
+													<td width="21" background="images/2656564.png" height="25"></td>
+												</tr>
 
-										</tbody>
-									</table>
-									<p>Athletics World Championship London 2017 LIVE </p>
-									<p class="posted">Rusian sport channel: Match! Arena HD</p></div>
+											</tbody>
+										</table>
+										<p>Athletics World Championship London 2017 LIVE </p>
+										<p class="posted">Rusian sport channel: Match! Arena HD</p></div>
+									</div>
 								</li>
-								<li><div>
-								<table>
-										<tbody>
-											<tr>
-												<td width="21" background="images/12421152032.png" height="13"></td>
-												<td background="images/55452124552.png" height="13"></td>
-												<td width="21" background="images/45454787.png" height="13"></td>
-											</tr>
+								<li>
+									<div>
+										<table>
+											<tbody>
+												<tr>
+													<td width="21" background="images/12421152032.png" height="13"></td>
+													<td background="images/55452124552.png" height="13"></td>
+													<td width="21" background="images/45454787.png" height="13"></td>
+												</tr>
 
-											<tr>
-												<td width="21" background="images/21210212120.png"></td>
-												<td>
-													<div id="media">
-								<script type="text/javascript">
-		<!--//--><![CDATA[// ><!--
+												<tr>
+													<td width="21" background="images/21210212120.png"></td>
+													<td>
+														<div id="media">
+															<script type="text/javascript">
+																<!--//--><![CDATA[// ><!--
 
-		function init() {
-			var useInternalControls = true;
+																function init() {
+																	var useInternalControls = true;
     
-			var controls = new TorrentStream.Controls("tsplayer", {
-					style: useInternalControls ? "internal" : "ts-black",
-					debug: true
-			});
+																	var controls = new TorrentStream.Controls("tsplayer", {
+																		style: useInternalControls ? "internal" : "ts-black",
+																		debug: true
+																	});
     
-			try {
-					var player = new TorrentStream.Player(controls.getPluginContainer(), {
-					debug: true,
-					useInternalControls: useInternalControls,
-					bgColor: "#000000",
-					fontColor: "#ffffff",
-					onLoad: function() {
-						this.registerEventHandler(controls);
-						controls.attachPlayer(this);
-						try {
-							var p = this;
-							this.loadPlayer("5797d37751ffeafd7e2aa2fec444c61e77e3a787", {autoplay: false});
-						}
-						catch(e) {
-						console.log("init: " + e);
-						}
-					}
-			});
-		}
-		catch(e) {
-			controls.onSystemMessage(e);
-		}
-	} 
+																	try {
+																		var player = new TorrentStream.Player(controls.getPluginContainer(), {
+																			debug: true,
+																			useInternalControls: useInternalControls,
+																			bgColor: "#000000",
+																			fontColor: "#ffffff",
+																			onLoad: function() {
+																				this.registerEventHandler(controls);
+																				controls.attachPlayer(this);
+																				try {
+																					var p = this;
+																					this.loadPlayer("5797d37751ffeafd7e2aa2fec444c61e77e3a787", {autoplay: false});
+																				}
+																				catch(e) {
+																					console.log("init: " + e);
+																				}
+																			}
+																		});
+																	}
+																	catch(e) {
+																		controls.onSystemMessage(e);
+																	}
+																} 
 
-	//--><!&pro;]]>
-								</script>
-								<div id="aceplayer">
-									<object id="plugin" classid="clsid:79690976-ED6E-403c-BBBA-F8928B5EDE17">
-										<param name="width" value="800px" />
-										<param name="height" value="450px" />
-										<param name="fullscreencontrols" value="true" />
-										<param name="fscontrolsenable" value="true" />
-										<param name="fscontrols" value="default" />
-										<param name="nofscontrolsenable" value="true" />
-										<param name="nofscontrols" value="default" />
-										<param name="nofscontrolsheight" value="36" />
-										<param name="loopable" value="false" /> 
-										<param name="autoplay" value="false" />
-									</object>
+																//--><!&pro;]]>
+															</script>
+															<div id="aceplayer">
+																<object id="plugin" classid="clsid:79690976-ED6E-403c-BBBA-F8928B5EDE17">
+																	<param name="width" value="800px" />
+																	<param name="height" value="450px" />
+																	<param name="fullscreencontrols" value="true" />
+																	<param name="fscontrolsenable" value="true" />
+																	<param name="fscontrols" value="default" />
+																	<param name="nofscontrolsenable" value="true" />
+																	<param name="nofscontrols" value="default" />
+																	<param name="nofscontrolsheight" value="36" />
+																	<param name="loopable" value="false" /> 
+																	<param name="autoplay" value="false" />
+																</object>
 		
-								<script type="text/javascript">
-									var plugin = document.getElementById("plugin");
-									// load by the content id
-									plugin.playlistLoadAsyncPlayer("5797d37751ffeafd7e2aa2fec444c61e77e3a787");
-								</script></div>
-								</div>
-												</td>
-												<td width="21" background="images/203233451.png"></td>
-											</tr>
-											<tr>
-												<td width="21" background="images/23121542.png" height="17"></td>
-												<td background="images/12345456.png" height="17"></td>
-												<td width="21" background="images/2656564.png" height="25"></td>
-											</tr>
+																<script type="text/javascript">
+																	var plugin = document.getElementById("plugin");
+																	// load by the content id
+																	plugin.playlistLoadAsyncPlayer("5797d37751ffeafd7e2aa2fec444c61e77e3a787");
+																</script>
+															</div>
+														</div>
+														
+													<!-- End div id media -->
+								
+													</td>
+													<td width="21" background="images/203233451.png"></td>
+												</tr>
+												<tr>
+													<td width="21" background="images/23121542.png" height="17"></td>
+													<td background="images/12345456.png" height="17"></td>
+													<td width="21" background="images/2656564.png" height="25"></td>
+												</tr>
 
-										</tbody>
-									</table>
-									<p>Athletics World Championship London 2017 LIVE </p>
-									<p class="posted">Rusian Eurosport 1 HD</p></div>
+											</tbody>
+										</table>
+										<p>Athletics World Championship London 2017 LIVE </p>
+										<p class="posted">Rusian Eurosport 1 HD</p></div>
+									</div>
 								</li>
 								<!--<li><img src="images/pics10.jpg" width="78" height="78" alt="">
 									<p>Nullam non wisi a sem eleifend. Donec mattis libero eget urna. </p>
@@ -359,6 +388,11 @@
 							</ul>
 						</section>				
 					</div>
+					
+				<!-- End div class 3u -->
+					
+				<!-- Start div class 3u -->
+					
 					<div class="3u">
 						<section>
 							<ul class="default" style="text-decoration:none;">
@@ -371,9 +405,14 @@
 								<li><a href="//www.eredivisie.nl" rel="nofollow"><span style="font-weight:900;">Eredivisie</span></a></li>
 								<li><a href="//www.premierleague.com/#!" rel="nofollow"><span style="font-weight:900;">Premier Legue</span></a></li>
 								<li><a href="//www.legaseriea.it/it" rel="nofollow"><span style="font-weight:900;">Allsvenskan</span></a></li>
-							</ul></span>
+							</ul>
 						</section>
 					</div>
+					
+				<!-- End div class 3u -->
+					
+				<!-- Start div class 3u -->
+					
 					<div class="3u" style="color:#fff;font-weight:900;">
 						<section>
 							<ul class="default">
@@ -389,6 +428,9 @@
 							</ul>
 						</section>
 					</div>
+					
+				<!-- End div class 3u -->
+				
 				</div>
 			</div>
 		</div>

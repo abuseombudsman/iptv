@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="250.22021mm"
+   height="26.458332mm"
+   viewBox="0 0 250.22021 26.458332"
+   version="1.1"
+   id="svg3921"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="football-livescore.svg">
+  <defs
+     id="defs3915" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="2109.9999"
+     inkscape:cy="-775.71429"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3918">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(452.43748,82.866071)">
+    <g
+       id="g3717"
+       transform="translate(-51.78276,53.294635)">
+      <rect
+         style="stroke-width:0.26458332"
+         y="-136.16071"
+         x="-400.65472"
+         height="26.458332"
+         width="250.22021"
+         id="rect3702" />
+      <flowRoot
+         transform="matrix(0.25029284,0,0,0.27795193,55.89648,-305.46676)"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         id="flowRoot3704"
+         xml:space="preserve"><flowRegion
+           style="fill:#ffffff"
+           id="flowRegion3706"><rect
+             style="fill:#ffffff"
+             y="613.94824"
+             x="-1808.5714"
+             height="122.85714"
+             width="1240"
+             id="rect3708" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff"
+           id="flowPara3710">FOOTBALL LIVE SCORE</flowPara></flowRoot>    </g>
+  </g>
+</svg>

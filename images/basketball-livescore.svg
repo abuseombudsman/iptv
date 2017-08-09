@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="250.28708mm"
+   height="26.45834mm"
+   viewBox="0 0 250.28708 26.45834"
+   version="1.1"
+   id="svg3873"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="basketball-livescore.svg">
+  <defs
+     id="defs3867" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="1085.8406"
+     inkscape:cy="-404.2857"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3870">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(337.56616,-15.407738)">
+    <g
+       id="g3808"
+       transform="translate(63.088563,160.63987)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <flowRoot
+         transform="matrix(0.26962786,0,0,0.30468912,68.347952,-240.75687)"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         id="flowRoot3719"
+         xml:space="preserve"><flowRegion
+           style="fill:#ffffff"
+           id="flowRegion3721"><rect
+             style="fill:#ffffff"
+             y="316.80539"
+             x="-1714.2858"
+             height="297.14285"
+             width="1434.2858"
+             id="rect3723" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff"
+           id="flowPara3725">SIDEBAR LIVE SCORE</flowPara></flowRoot>      <rect
+         y="-145.23213"
+         x="-216.95833"
+         height="16.630943"
+         width="66.523811"
+         id="rect3727"
+         style="fill:#ffffff;stroke-width:0.26458332" />
+      <rect
+         y="-145.23213"
+         x="-400.65472"
+         height="26.45834"
+         width="250.22015"
+         id="rect3788"
+         style="fill:#000000;stroke-width:0.26458332" />
+      <flowRoot
+         transform="matrix(0.22654856,0,0,0.29132052,26.280688,-227.19604)"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         id="flowRoot3790"
+         xml:space="preserve"><flowRegion
+           style="fill:#ffffff"
+           id="flowRegion3792"><rect
+             style="fill:#ffffff"
+             y="285.37683"
+             x="-1860"
+             height="317.14285"
+             width="1171.4286"
+             id="rect3794" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff"
+           id="flowPara3796">BASKETBALL LIVE SCORE</flowPara></flowRoot>    </g>
+  </g>
+</svg>
