@@ -42,7 +42,7 @@ author: abuseombudsman
 																				controls.attachPlayer(this);
 																				try {
 																					var p = this;
-																					this.loadPlayer("03bdd44bf6bad22e7898cc1c3321fee986ec34b2", {autoplay: false});
+																					this.loadPlayer("03bdd44bf6bad22e7898cc1c3321fee986ec34b2", {autoplay: true});
 																				}
 																				catch(e) {
 																					console.log("init: " + e);
@@ -68,7 +68,7 @@ author: abuseombudsman
 																	<param name="nofscontrols" value="default" />
 																	<param name="nofscontrolsheight" value="450" />
 																	<param name="loopable" value="false" /> 
-																	<param name="autoplay" value="false" />
+																	<param name="autoplay" value="true" />
 																</object>
 		
 																<script type="text/javascript">
